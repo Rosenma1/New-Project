@@ -8,7 +8,7 @@ import basketball from "./assets/basketballcopy.png"
 import cafeteria from "./assets/cafeteriacopy.png"
 import student1 from "./assets/user1copy.jpg"
 import student2 from "./assets/user2copy.jpg"
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaStar, FaStarHalfAlt, FaRegHeart } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaStar, FaRegStar, FaStarHalfAlt, FaRegHeart } from 'react-icons/fa';
 
 
 
@@ -133,7 +133,7 @@ const App = () => {
                 <FaStar color="#ff0000" />
                 <FaStar color="#ff0000" />
                 <FaStar color="#ff0000" />
-                <FaStar color="" />
+                <FaRegStar color="#fff" />
                 
             </div>
 
@@ -168,7 +168,7 @@ const App = () => {
   <section className="footer">
     <h4>About Us</h4>
     <p>We are the top World research University with a heart for people. Founded in 1908, we are the nations hope for integrity, dedicated and devoted to social justice, respect for each individuals needs and talents. We're a community of people who bridge our disparate experiences and identities. Meet the people and places that make WBU home.</p>
-     <div className="icons">
+     <div className="icons" style={{ display: 'flex', gap: '15px', fontSize: '24px' }}>
         <FaFacebook color="#ff0000" />
           <FaTwitter color="#ff0000"  />
           <FaInstagram color="#ff0000" />
