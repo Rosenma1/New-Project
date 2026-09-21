@@ -8,6 +8,8 @@ import basketball from "./assets/basketballcopy.png"
 import cafeteria from "./assets/cafeteriacopy.png"
 import student1 from "./assets/user1copy.jpg"
 import student2 from "./assets/user2copy.jpg"
+import './index.css';
+
 
 
 const App = () => {
