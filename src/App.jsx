@@ -168,7 +168,7 @@ const App = () => {
   <section className="footer">
     <h4>About Us</h4>
     <p>We are the top World research University with a heart for people. Founded in 1908, we are the nations hope for integrity, dedicated and devoted to social justice, respect for each individuals needs and talents. We're a community of people who bridge our disparate experiences and identities. Meet the people and places that make WBU home.</p>
-     <div className="icons" style={{  gap: '15px', fontSize: '24px' }}>
+     <div className="icons" style={{  display:'flex', textAlign: 'center', gap: '15px', fontSize: '24px' }}>
         <FaFacebook color="#ff0000" />
           <FaTwitter color="#ff0000"  />
           <FaInstagram color="#ff0000" />
