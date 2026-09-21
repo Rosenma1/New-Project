@@ -133,7 +133,7 @@ const App = () => {
                 <FaStar color="#ff0000" />
                 <FaStar color="#ff0000" />
                 <FaStar color="#ff0000" />
-                <FaStarHalfAlt color="#ff0000" />
+                <FaStarHalfAlt color="#fff" />
                 
             </div>
 
@@ -147,7 +147,7 @@ const App = () => {
               <FaStar color="#ff0000" />
               <FaStar color="#ff0000" />
               <FaStar color="#ff0000" />
-              <FaStarHalfAlt color="#ff0000" />
+              <FaStar color="#ff0000"/>
             </div>
 
         </div>
