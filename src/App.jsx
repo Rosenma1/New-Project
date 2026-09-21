@@ -129,11 +129,11 @@ const App = () => {
             <div>
                 <p>“WBU is home to me not because of the fancy buildings like Pearl Hall, or its prestigious reputation, but rather because of the university's care for the whole person as each of us attempts to live our lives for others.”</p>
                 <h3>Christine Berkley</h3>
-                <i className="fa-solid fa-star"></i>
-                <i className="fa-solid fa-star"></i>
-                <i className="fa-solid fa-star"></i>
-                <i className="fa-solid fa-star"></i>
-                <i className="fa-solid fa-star-half-stroke"></i>
+                <FaStar color="#ff0000" />
+                <FaStar color="#ff0000" />
+                <FaStar color="#ff0000" />
+                <FaStar color="#ff0000" />
+                <FaStarHalfAlt color="#ff0000" />
                 
             </div>
 
@@ -143,12 +143,11 @@ const App = () => {
             <div>
                 <p>“It's likely that you will come to love some of the most amazing souls this campus has to offer. That love may come in the form of friendships that you know will last forever.</p>
                 <h3>David Byer</h3>
-                <h3>David Byer</h3>
-              <FaStar color="#ffc107" />
-              <FaStar color="#ffc107" />
-              <FaStar color="#ffc107" />
-              <FaStar color="#ffc107" />
-              <FaStarHalfAlt color="#ffc107" />
+              <FaStar color="#ff0000" />
+              <FaStar color="#ff0000" />
+              <FaStar color="#ff0000" />
+              <FaStar color="#ff0000" />
+              <FaStarHalfAlt color="#ff0000" />
             </div>
 
         </div>
@@ -170,12 +169,12 @@ const App = () => {
     <h4>About Us</h4>
     <p>We are the top World research University with a heart for people. Founded in 1908, we are the nations hope for integrity, dedicated and devoted to social justice, respect for each individuals needs and talents. We're a community of people who bridge our disparate experiences and identities. Meet the people and places that make WBU home.</p>
      <div className="icons">
-        <i className="fa-brands fa-facebook"></i>
-        <i className="fa-brands fa-twitter"></i>
-        <i className="fa-brands fa-instagram"></i>
-        <i className="fa-brands fa-linkedin"></i>
+        <FaFacebook />
+          <FaTwitter />
+          <FaInstagram />
+          <FaLinkedin />
      </div>
-     <p>Made with <i className="fa-regular fa-heart"></i> by Nma</p>
+     <p>Made with <FaRegHeart color = "red" /> by Nma</p>
 
 
   </section>
