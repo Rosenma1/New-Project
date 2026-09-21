@@ -8,7 +8,7 @@ import basketball from "./assets/basketballcopy.png"
 import cafeteria from "./assets/cafeteriacopy.png"
 import student1 from "./assets/user1copy.jpg"
 import student2 from "./assets/user2copy.jpg"
-import './App.css';
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaStar, FaStarHalfAlt, FaRegHeart } from 'react-icons/fa';
 
 
 
@@ -42,7 +42,7 @@ const App = () => {
 </section>
   <section className="course">  
     <h1>Courses we Offer</h1> 
-    <p>Explore the different courses we offer , the intersection of technology and society. Learn about engineering, nursing, social work etc. Our innovative courses inspire and invite you to help solve some of today's most pressing local, national and global issues.</p>
+    <p>Explore the different courses we offer, the intersection of technology and society. Learn about engineering, nursing, social work etc. Our innovative courses inspire and invite you to help solve some of today's most pressing local, national and global issues.</p>
     
    <div className="row">
     <div className="course-col">
@@ -101,7 +101,7 @@ const App = () => {
         <div className="facilities-col">
             <img src= {library} alt="library" />
             <h3>World Class Library</h3>
-            <p>A standard library that iclude books, digital tools, study desks, and helpful staff. It supports students and offers free acess to information.</p>
+            <p>A standard library that include books, digital tools, study desks, and helpful staff. It supports students and offers free access to information.</p>
         </div>
      
         <div className="facilities-col">
@@ -122,7 +122,7 @@ const App = () => {
   {/* <!-- TESTIMONIALS --> */}
   <section className="testimonials">
     <h1>What Our Students Say</h1>
-    <p>Testemonies from some of our students and what they have to say. Being accepted her gives you the freedom to interact, review and also give your honest opinions and feedback on your personal experiences. </p>
+    <p>Testimonies from some of our students and what they have to say. Being accepted her gives you the freedom to interact, review and also give your honest opinions and feedback on your personal experiences. </p>
     <div className="row">
         <div className="testimonial-col">
             <img src={student1} alt="Student1" />
@@ -143,11 +143,12 @@ const App = () => {
             <div>
                 <p>“It's likely that you will come to love some of the most amazing souls this campus has to offer. That love may come in the form of friendships that you know will last forever.</p>
                 <h3>David Byer</h3>
-                <i className="fa-solid fa-star"></i>
-                <i className="fa-solid fa-star"></i>
-                <i className="fa-solid fa-star"></i>
-                <i className="fa-solid fa-star"></i>
-                <i className="fa-solid fa-star-half-stroke"></i>
+                <h3>David Byer</h3>
+              <FaStar color="#ffc107" />
+              <FaStar color="#ffc107" />
+              <FaStar color="#ffc107" />
+              <FaStar color="#ffc107" />
+              <FaStarHalfAlt color="#ffc107" />
             </div>
 
         </div>
