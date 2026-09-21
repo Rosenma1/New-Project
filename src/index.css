@@ -365,8 +365,8 @@ h3{
 
 }
 
-.icons{
-  gap: 15px;
+.footer .icons{
+  gap: 10px;
   font-size: 24px;
 }
 

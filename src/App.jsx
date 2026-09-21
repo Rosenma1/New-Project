@@ -133,7 +133,7 @@ const App = () => {
                 <FaStar color="#ff0000" />
                 <FaStar color="#ff0000" />
                 <FaStar color="#ff0000" />
-                <FaStarHalfAlt color="#fff" />
+                <FaStar color="" />
                 
             </div>
 
@@ -147,7 +147,7 @@ const App = () => {
               <FaStar color="#ff0000" />
               <FaStar color="#ff0000" />
               <FaStar color="#ff0000" />
-              <FaStar color="#ff0000"/>
+              <FaStarHalfAlt color="#ff0000"/>
             </div>
 
         </div>
@@ -169,10 +169,10 @@ const App = () => {
     <h4>About Us</h4>
     <p>We are the top World research University with a heart for people. Founded in 1908, we are the nations hope for integrity, dedicated and devoted to social justice, respect for each individuals needs and talents. We're a community of people who bridge our disparate experiences and identities. Meet the people and places that make WBU home.</p>
      <div className="icons">
-        <FaFacebook />
-          <FaTwitter />
-          <FaInstagram />
-          <FaLinkedin />
+        <FaFacebook color="#ff0000" />
+          <FaTwitter color="#ff0000"  />
+          <FaInstagram color="#ff0000" />
+          <FaLinkedin color="#ff0000" />
      </div>
      <p>Made with <FaRegHeart color = "red" /> by Nma</p>
 
